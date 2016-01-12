@@ -19,7 +19,7 @@ public class Enemy extends Fighter {
 	protected Enemy(Square s, boolean b) {
 		super(s);
 		H_N = b;
-		setSpeed(0.045 * Main.UPDATE_INTERVAL / 10); // set default speed
+		setSpeed(0.04 * Main.UPDATE_INTERVAL / 10); // set default speed
 	}
 
 	public boolean isHobbing() {
